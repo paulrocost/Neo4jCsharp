@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Neo4jCsharp.Domain\Neo4jCsharp.Domain.csproj" />
+    <ProjectReference Include="..\Neo4jCsharp.Infrastructure\Neo4jCsharp.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
